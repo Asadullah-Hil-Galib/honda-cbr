@@ -1,0 +1,18 @@
+@media only screen and (max-width: 767px) {
+        .lead{
+            font-size: 1rem !important;
+        }
+        .heading-title {
+            font-size: 34px;
+            font-weight: 500;
+        }
+        .social-icons{
+        justify-content: center !important;
+        }
+}
+@media only screen and (max-width: 467px) {
+        .my-accordion-button {
+            font-size: 1rem;
+            color: #111;
+        }
+}

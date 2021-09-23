@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+/*
+==================================
+    Coustom CSS For Full Page
+==================================
+*/
+.heading-title{
+    font-size: 48px;
+    font-weight: 600;
+}
+.text-orange{
+    color:#E76F51;
+}
+.text-gray{
+    color: rgba(194, 194, 194, 0.993);
+}
+.text-sm{
+    font-size: 1rem;
+    color: rgb(121, 121, 121);
+    font-weight: 300;
+}
+.btn-orange{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 2rem;
+    background: #E76F51;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #E76F51;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.btn-orange:hover{
+    color: #E76F51;
+    background: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/*
+==================================
+      Header Section Style
+==================================
+*/
+header{
+    background: #264653;
+}
+
+/*
+==================================
+      Navbar Section Style
+==================================
+*/
+nav{
+    background: #264653;
+}
+.navbar-toggler-btn{
+    color: #ffffff;
+    border: none !important;
+}
+.navbar-toggler-btn:focus{
+    box-shadow: 0 !important;
+}
+.navbar-toggler-btn i{
+    color: #ffffff;
+}
+/*
+==================================
+      Banner Section Style
+==================================
+*/
+.banner p{
+    margin-top: 1rem;
+}
+
+/*
+==================================
+      Feature Section Style
+==================================
+*/
+.feature-section .text-divider{
+    font-size: 1.2rem;
+    color: #E76F51;
+    position: absolute;
+}
+.feature-section .text-divider::before{
+    content: "";
+    position: absolute;
+    top: 1.8rem;
+    height: 1px;
+    width: 60px;
+    background: #E76F51;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.feature-section .img-gray{
+    filter: grayscale(100%);
+}
+.news-section .card{
+        border-radius: 0.70rem;
+}
+
+/*
+==================================
+      FeedBack Section Style
+==================================
+*/
+
+.feedback-section .rating{
+    color: #888;
+}
+.feedback-section .rating .active {
+    color: #E76F51;
+    font-size: 1.2rem;
+}
+.feedback-section .card-header img {
+    width: 149px !important;
+    height: 149px;
+}
+
+.my-accordion-button{
+    font-size: 1.5rem;
+    color: #111;
+}
+.my-accordion-button:focus{
+    color: #111;
+    background: #ffffff;
+    box-shadow: none;
+}
+.my-accordion-button:active{
+    color: #111;
+    background: #ffffff;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #111;
+    background-color: #fff;
+    box-shadow: unset;
+}
+
+/*
+==================================
+      Brand Section Style
+==================================
+*/
+.brand-section img{
+    filter: grayscale(100);
+    transition: 0.3s;
+}
+.brand-section img:hover{
+    filter: grayscale(0);
+}
+
+.world-map{
+    filter: grayscale(70%);
+}
+iframe.world-map {
+    width: 100%;
+}
+/*
+==================================
+      Footer Section Style
+==================================
+*/
+form .form-control:focus{
+    box-shadow: none;
+}
+
+footer .social-icons img{
+    width: 40px;
+}
